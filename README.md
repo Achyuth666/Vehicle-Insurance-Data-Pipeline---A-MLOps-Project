@@ -1,6 +1,6 @@
-# 🚗💼 Vehicle Insurance MLOps Project
+# 🚗💼 **Vehicle Insurance MLOps Project**
 
-### End-to-End Production-Ready ML Pipeline | Cloud Integrated | CI/CD Automated
+### **End-to-End Production-Ready ML Pipeline | Cloud Integrated | CI/CD Automated**
 
 > A complete MLOps implementation showcasing how machine learning systems are built, validated, versioned, containerized, and deployed in real-world environments.
 
@@ -8,7 +8,7 @@ Designed to demonstrate **production engineering skills** expected from an **MLO
 
 ---
 
-# 🏗️ System Architecture
+# 🏗️ **System Architecture**
 
 ```
 MongoDB Atlas (Cloud Database)
@@ -43,7 +43,7 @@ This architecture ensures:
 
 ---
 
-# 🛠️ Tech Stack & Tools
+# 🛠️ **Tech Stack & Tools**
 
 | Category           | Tools & Services                  |
 | ------------------ | --------------------------------- |
@@ -54,15 +54,15 @@ This architecture ensures:
 | Compute            | Amazon EC2                        |
 | Containerization   | Docker                            |
 | CI/CD              | GitHub Actions                    |
-| Container Registry | Amazon Elastic Container Registry |
+| Container Registry | Amazon ECR                        |
 | Version Control    | GitHub                            |
-| API Framework      | Flask                             |
+| API Framework      | FastAPI                           |
 
 ---
 
-# 🎯 Project Objective
+# 🎯 **Project Objective**
 
-Build a **robust, modular, and cloud-integrated ML pipeline** for Vehicle Insurance data that covers:
+Build a **_robust, modular, and cloud-integrated ML pipeline_** for Vehicle Insurance data that covers:
 
 * Data ingestion from cloud database
 * Validation & transformation
@@ -74,7 +74,7 @@ Build a **robust, modular, and cloud-integrated ML pipeline** for Vehicle Insura
 
 ---
 
-# 📁 Project Setup & Environment
+# 📁 **Project Setup & Environment**
 
 ## 🧩 Step 1: Project Template
 
@@ -101,7 +101,7 @@ pip list
 
 ---
 
-# 📊 MongoDB Setup & Data Management
+# 📊 **MongoDB Setup & Data Management**
 
 ## ☁️ Step 4: MongoDB Atlas Configuration
 
@@ -119,7 +119,7 @@ pip list
 
 ---
 
-# 📝 Logging, Exception Handling & EDA
+# 📝 **Logging, Exception Handling & EDA**
 
 ## ⚙️ Step 6: Logging & Exception Handling
 
@@ -143,7 +143,7 @@ All learnings converted into a **reproducible transformation pipeline** for trai
 
 ---
 
-# 📥 Data Ingestion Pipeline
+# 📥 **Data Ingestion Pipeline**
 
 ## 🔄 Step 8: Data Ingestion
 
@@ -152,7 +152,7 @@ All learnings converted into a **reproducible transformation pipeline** for trai
 * Artifact generation
 * Raw → processed dataset flow
 
-### 🔐 Environment Variable Setup
+### 🔐 **Environment Variable Setup**
 
 **Bash**
 
@@ -168,7 +168,7 @@ $env:MONGODB_URL="mongodb+srv://<username>:<password>...."
 
 ---
 
-# 🔍 Data Validation, Transformation & Training
+# 🔍 **Data Validation, Transformation & Training**
 
 ## ✅ Step 9: Data Validation
 
@@ -196,7 +196,7 @@ $env:MONGODB_URL="mongodb+srv://<username>:<password>...."
 
 ---
 
-# ☁️ AWS Model Registry & Deployment
+# ☁️ **AWS Model Registry & Deployment**
 
 ## 🔐 Step 12: AWS Setup
 
@@ -224,7 +224,7 @@ Amazon S3
 
 ---
 
-# 🚀 Prediction Pipeline & API
+# 🚀 **Prediction Pipeline & API**
 
 ## 🔎 Step 14: Model Evaluation & Pusher
 
@@ -232,7 +232,7 @@ Amazon S3
 * Conditional deployment
 * Model registry update
 
-## 🌐 Prediction Pipeline
+## 🌐 **Prediction Pipeline**
 
 * Flask-based REST API
 * Real-time predictions
@@ -246,7 +246,7 @@ python app.py
 
 ---
 
-# 🔄 CI/CD with Docker & GitHub Actions
+# 🔄 **CI/CD with Docker & GitHub Actions**
 
 ## 🐳 Step 16: Docker Setup
 
@@ -259,7 +259,7 @@ Docker
 
 ---
 
-## ⚙️ GitHub Actions Workflow
+## ⚙️ **GitHub Actions Workflow**
 
 Automated:
 
@@ -268,7 +268,7 @@ Automated:
 * Deployment to EC2
 
 Using:
-GitHub Actions
+**_GitHub Actions_**
 
 Secrets configured in GitHub:
 
@@ -276,10 +276,11 @@ Secrets configured in GitHub:
 * AWS_SECRET_ACCESS_KEY
 * AWS_DEFAULT_REGION
 * ECR_REPO
+* MONGODB_URL
 
 ---
 
-# 🖥️ AWS EC2 & ECR Deployment
+# 🖥️ **AWS EC2 & ECR Deployment**
 
 ## ☁️ Step 17: EC2 & ECR
 
@@ -295,16 +296,16 @@ Amazon EC2
 
 ## 🌍 Step 18: Final Deployment
 
-* Opened port **5080**
+* Opened port **5000**
 * Application accessible at:
 
 ```
-http://<public_ip>:5080
+http://<public_ip>:5000
 ```
 
 ---
 
-# 🔄 Complete Workflow Overview
+# 🔄 **Complete Workflow Overview**
 
 ```
 Data Ingestion
@@ -321,20 +322,20 @@ Model Evaluation
       ↓
 Model Registry (S3)
       ↓
-Dockerization
+Dockerization (Docker and ECR)
       ↓
-CI/CD Automation
+CI/CD Automation (Github Actions)
       ↓
 Deployment (EC2)
 ```
 
 ---
 
-## ⭐ Built with an MLOps-First Mindset
+## ⭐ **Built with an MLOps-First Mindset**
 
 Production-ready. Cloud-integrated. Deployment-automated.
 
 ---
 
-## 💬 Connect
+## 💬 **_Connect_**
 If you found this project helpful or have any questions, feel free to reach out!
