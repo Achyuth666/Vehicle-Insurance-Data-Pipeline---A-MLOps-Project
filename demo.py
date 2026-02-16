@@ -27,10 +27,3 @@ from src.pipline.training_pipeline import TrainPipeline
 pipeline = TrainPipeline()
 pipeline.run_pipeline()
 # _________________________________________________________________
-
-
-# mongodb+srv://Achyuth_mlops_user:Iu6mo7qIJmqRnfAU@cluster0.72vxxxt.mongodb.net/?appName=Cluster0
-
-# new username:  Achyuth
-# new pswd:      SUItvUHbmRqNVJdM
-# mongodb+srv://Achyuth:SUItvUHbmRqNVJdM@cluster0.72vxxxt.mongodb.net/?appName=Cluster0
